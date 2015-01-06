@@ -1,0 +1,10 @@
+%a = 2
+@b = 15 ;dfasfdsf
+
+%c = add i32 %a, 2       ;should be 4
+%d = sub i32 %a, %c       ;should be 8
+%e = mul i32 %a, @b       ;should be 30
+
+%f = icmp eq i32 %a, %a
+%g = icmp ne i32 %c, @b
+%h = icmp sgt i32 %d, %e

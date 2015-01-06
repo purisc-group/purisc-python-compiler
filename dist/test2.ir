@@ -1,0 +1,14 @@
+%a = 4
+@b = 15 ;dfasfdsf
+
+%c = add i32 %a,@b
+%d=sub i32     %a,@b ;adfaskljfasf
+%e   =mul i32 %a  ,   @b
+%f = udiv i32 %a,@b
+%0 = urem i32 %a,@b
+
+%a = add i32 2,%a
+@b = sub i32 @b, 6
+%a = mul i32 %a,4
+@b = udiv i32 @b,2
+%a = urem i32 %a, 4
